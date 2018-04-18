@@ -10,10 +10,10 @@ if("serviceWorker" in navigator) {
 }
 
 // If we don't want the banner showed when the criteria met
-window.addEventListener("beforeinstallprompt", event => {
-  console.log("beforeinstallprompt fired");
-  // now chrome wont show the banner
-  event.preventDefault();
-  deferredPrompt = event;
-  return false;
-})
+// window.addEventListener("beforeinstallprompt", event => {
+//   console.log("beforeinstallprompt fired");
+//   // now chrome wont show the banner
+//   event.preventDefault();
+//   deferredPrompt = event;
+//   return false;
+// })
